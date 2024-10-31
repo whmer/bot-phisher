@@ -30,7 +30,7 @@ cat << EOF
   author          :     whmer - sam 
   description     :     channeled and unplugged, why not?    
 EOF
-timeout 3s curl -fIs "https://web.whatsapp.com/" > /dev/null
+timeout 3s curl -fIs "https://www.instagram.com/" > /dev/null
 if [[ $? -eq 0 ]]; then
 echo -e "${WHITE}  status          : ${GREEN}    on-line"
 else
